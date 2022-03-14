@@ -13,7 +13,8 @@ function Header() {
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                  <Nav className="mr-auto">
+                <Nav className="justify-content-end" style={{ width: "90%" }}>
+
 
                     <LinkContainer to='/cart'>
                       <Nav.Link ><i className="fas fa-shopping-cart"></i>Cart</Nav.Link>
@@ -24,7 +25,7 @@ function Header() {
                     </LinkContainer>
 
                     <LinkContainer to='/cassette'>
-                      <Nav.Link ><i className="fas fa-id-card"></i>CD</Nav.Link>
+                      <Nav.Link ><i className="fas fa-id-card"></i>Cassette</Nav.Link>
                     </LinkContainer>
                   </Nav>
                   <Nav className="me-auto">
