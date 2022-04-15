@@ -24,4 +24,5 @@
 
 
 # Frontend
+# npm install react-paypal-button-v2 
  
