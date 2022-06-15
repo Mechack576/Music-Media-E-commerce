@@ -1,4 +1,5 @@
-# meem
+# This project has admin who adds inventory and ships out orders
+# And consumer side where you can order things and pay using paypal(Sandbox)
 
 
 
